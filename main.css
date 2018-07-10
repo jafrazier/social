@@ -12,15 +12,17 @@
   height: auto;
   border: black 2px solid;
   float: left;
+  box-shadow: 5px 5px 2px black;
 
 }
 .side-content {
  width: 30%;
- height: 700px;
- border: black 2px solid;
+ height: auto;
  float: right;
  text-align: center;
-
+ border: black 1px solid;
+ box-shadow: 5px 5px 2px black;
+margin-right: 10px;
 }
 
 
@@ -42,7 +44,40 @@
   padding-top: 100px;
 }
 
+.post-content{
+  margin-top: 0px;
+  background-color:rgba(0,0,0,0.7);
+
+}
+
+.post-content:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.friend-list {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+  padding-top: 5px;
+}
+
 .friend {
   width: 25%;
   height: auto;
+  border-radius: 50%;
+
+}
+h4 {
+  margin-top: 0;
+}
+
+.robin {
+  background: green;
+}
+.superman {
+  background: red;
+}
+.alfred {
+  background: dimgrey;
 }
